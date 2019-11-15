@@ -5,10 +5,7 @@
   </head>
 
   <body>
-    <% if flash[:message] %>
-      <h2><%= flash[:message] %></h2>
-    <% end %>
-
-    <%= yield %>	    <%= yield %>
+    <%= yield %>
+    <a href="/">Home</a>
   </body>
 </html>
